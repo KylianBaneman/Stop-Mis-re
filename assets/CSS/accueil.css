@@ -130,7 +130,7 @@ header{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 300px auto;
+  margin-top: 300px;
 }
 
 .fond__texte p{
@@ -287,6 +287,6 @@ header{
     font-size: 40px;
   }
   .fond__texte{
-    margin-top: 150px auto;
+    margin-top: 150px;
   }
 }
