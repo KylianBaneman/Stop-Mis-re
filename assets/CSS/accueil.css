@@ -149,9 +149,9 @@ header{
 
 .fond__texte__button button{
   opacity: 0;
-  color: #000;
+  color: #80C6FF;
   font-size: 20px;
-  background-color: #80C6FF;
+  background-color: #000;
   border: none;
   border-radius:8px ;
   padding: 15px;
