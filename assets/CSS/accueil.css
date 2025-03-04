@@ -71,7 +71,7 @@ header{
   padding: 0px 0px;
   height: 50px;
   min-width: 100px;
-  transition : top 0.3s ease-out;
+  transition : top 0.5s ease-out;
 }
 
 .ongletQui{
@@ -118,6 +118,7 @@ header{
   border-radius : 100% ;
 }
 .header__img img{
+  margin-left:5px ;
   width: 90%;
   height: auto;
 }
@@ -129,7 +130,7 @@ header{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 175px auto;
+  margin: 300px auto;
 }
 
 .fond__texte p{
@@ -172,7 +173,7 @@ header{
   transition: transform 0.15s ease-out , color  0.15s ease-out;
 }
 .fond__texte__button__animate:hover span{
-  transform: translate(6px , -6px);
+  transform: translate(5px , -5px);
 }
 
 
