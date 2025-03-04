@@ -262,6 +262,10 @@ header{
 
   .fond__texte p {
     text-align: center;
-    
+    font-size: 50px;
+  }
+  .fond__texte__slogan p{
+    width: 90%;
+    font-size: 40px;
   }
 }
