@@ -286,4 +286,7 @@ header{
     width: 90%;
     font-size: 40px;
   }
+  .fond__texte{
+    margin-top: 150px auto;
+  }
 }
