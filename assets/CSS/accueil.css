@@ -5,7 +5,7 @@
   font-family : sans-serif;
 }
 
-/*Animations*/
+/* ------------------------ Animations ------------------------ */
 
 @keyframes sloganPopAgir {
   from{
@@ -36,7 +36,8 @@
   animation: sloganPopTexte 0.6s ease-out 0.6s forwards;
 }
 
-/*Fond Image*/
+/* ------------------------ Fond d'image ------------------------ */
+
 .fond{
   background-image: url(https://static.vecteezy.com/system/resources/previews/032/940/265/non_2x/green-meadow-lone-tree-tranquil-horizon-at-dawn-free-photo.jpg);
   background-position: center;
@@ -45,7 +46,7 @@
   height: 100vh;
 }
 
-/*Header*/
+/* ------------------------ Header ------------------------ */
 
 header{
   display: flex;
@@ -55,18 +56,22 @@ header{
 
 
 .header__menu{
+  position: fixed;
+  top: 40px;
+  left: 50%;
+  transform: translate(-50%);
   background-color: rgba(255, 255, 255, 1);
   border-radius: 17px;
   width: max-content;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 40px auto;
   list-style: none;
   font-size: 20px;
   padding: 0px 0px;
   height: 50px;
   min-width: 100px;
+  transition : top 0.3s ease-out;
 }
 
 .ongletQui{
@@ -117,7 +122,7 @@ header{
   height: auto;
 }
 
-/*Texte + button sur le fond*/
+/* ------------------------ Texte + button sur le fond ------------------------ */
 
 .fond__texte{
   display: flex;
@@ -170,6 +175,14 @@ header{
   transform: translate(6px , -6px);
 }
 
+
+/* ------------------------ Menu Burger ------------------------ */
+
+.burger--toggler{
+  opacity: 0;
+  visibility: hidden;
+}
+
 .overlay--burger{
   cursor: pointer;
   position: fixed;
@@ -216,11 +229,16 @@ header{
   transform: translateX(0);
 }
 
+
+/* ------------------------ Responsive mobile ------------------------ */
+
 @media screen and (max-width : 750px) {
   .header__menu{
     display: none;
   }
   .burger--toggler {
+    opacity: 1;
+    visibility: visible;
     position: absolute;
     z-index: 20;
     top: 50px;
@@ -259,7 +277,6 @@ header{
   .burger--toggler.active .l3{
     transform: translateY(0px) rotate(-135deg);
   }
-
   .fond__texte p {
     text-align: center;
     font-size: 50px;
