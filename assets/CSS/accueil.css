@@ -56,7 +56,7 @@ header{
 
 .header__menu{
   background-color: rgba(255, 255, 255, 1);
-  border-radius: 25px;
+  border-radius: 17px;
   width: max-content;
   display: flex;
   justify-content: center;
@@ -64,29 +64,28 @@ header{
   margin: 40px auto;
   list-style: none;
   font-size: 20px;
-  padding: 0px 20px;
+  padding: 0px 0px;
   height: 50px;
   min-width: 100px;
-  padding-right: 0;
 }
 
 .ongletQui{
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .ongletContact{
-  margin: 0px 10px 0px 70px;
+  margin: 0px 0px 0px 70px;
   padding: 13px 0px
 }
 
 .ongletBenevole{
-  margin: 0px 0px 0px 130px;
+  margin: 0px 10px 0px 160px;
   padding: 13px 0px;
 }
 
 .ongletDon{
   background-color: #000;
-  margin-left: 20px;
+  margin-left: 15px;
   padding: 14px 25px 14px 25px;
   border-top-right-radius:18px ;
   border-bottom-right-radius:18px ;
