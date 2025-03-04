@@ -5,6 +5,10 @@
   font-family : sans-serif;
 }
 
+html, body {
+  overscroll-behavior: none;
+  touch-action: pan-x pan-y;
+}
 /* ------------------------ Animations ------------------------ */
 
 @keyframes sloganPopAgir {
