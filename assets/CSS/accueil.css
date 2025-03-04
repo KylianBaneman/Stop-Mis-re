@@ -89,11 +89,15 @@ header{
 }
 
 .ongletDon{
+  background-color: #000;
   padding: 14px 5px 14px 5px;
   border-top-right-radius:18px ;
   border-bottom-right-radius:18px ;
 }
 
+.ongletDon a{
+  color: #80C6FF;
+}
 
 .lien{
   display: inline-block;
