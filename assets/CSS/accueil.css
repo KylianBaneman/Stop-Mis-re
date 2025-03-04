@@ -295,4 +295,8 @@ header{
   .fond__texte{
     margin-top: 150px;
   }
+  .fond {
+    background-attachment: fixed;
+    background-position: center;
+  }
 }
