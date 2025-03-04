@@ -33,7 +33,7 @@
   animation: sloganPopAgir 0.5s ease-out;
 }
 .popAnimation1{
-  animation: sloganPopTexte 0.7s ease-out 0.6s forwards;
+  animation: sloganPopTexte 0.6s ease-out 0.6s forwards;
 }
 
 /*Fond Image*/
@@ -124,7 +124,7 @@ header{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 200px auto;
+  margin: 175px auto;
 }
 
 .fond__texte p{
