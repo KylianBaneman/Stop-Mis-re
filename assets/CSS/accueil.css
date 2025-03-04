@@ -71,23 +71,22 @@ header{
 }
 
 .ongletQui{
-  margin: 0px 0px 0px 10px;
-  padding: 13px 0px;
+  margin-left: 20px;
 }
 
 .ongletContact{
-  margin: 0px 0px 0px 50px;
+  margin: 0px 10px 0px 70px;
   padding: 13px 0px
 }
 
 .ongletBenevole{
-  margin: 0px 0px 0px -900px;
+  margin: 0px 0px 0px 130px;
   padding: 13px 0px;
 }
 
 .ongletDon{
   background-color: #000;
-  margin-left: 10px;
+  margin-left: 20px;
   padding: 14px 25px 14px 25px;
   border-top-right-radius:18px ;
   border-bottom-right-radius:18px ;
