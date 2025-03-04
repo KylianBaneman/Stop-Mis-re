@@ -289,4 +289,7 @@ header{
   .fond__texte{
     margin-top: 150px;
   }
+  .fond{
+    height: 80vh;
+  }
 }
