@@ -394,6 +394,7 @@ footer{
 }
 
 .footer__logo p{
+  text-decoration: none;
   color: #80C6FF;
   font-size: 18px;
   margin: 3px;
@@ -471,5 +472,11 @@ footer{
   }
   .rejoindreSup{
     flex-direction: column;
+  }
+  .footer__lienLégaux{
+    flex-direction: column;
+  }
+  .footer__lienLégaux a{
+    padding: 13px 0px;
   }
 }
