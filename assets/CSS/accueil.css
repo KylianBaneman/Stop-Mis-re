@@ -246,6 +246,21 @@ header{
   margin: 50px auto;
 }
 
+.rejoindre h2{
+  text-align: center;
+  margin: 75px auto;
+  font-size: 30px ;
+}
+
+
+hr{
+  height: 1.5px;
+  background-color: #000;
+  border: none;
+  width: 50%;
+  margin: 50px auto;
+}
+
 .infoSup__content{
   display: flex;
   flex-direction: column;
@@ -296,7 +311,7 @@ header{
   transition: all 0.4s;
 }
 
-.content__btn button:hover{
+.infoSup__content button:hover{
   color: #80C6FF;
   background-color: #0b0b0b;
 }

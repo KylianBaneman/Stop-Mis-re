@@ -6,6 +6,7 @@ let Overlay = document.querySelector(".overlay--burger")
 let trigger = document.querySelector(".trigger")
 let lastScrollTop = 0
 let headerHidden = false
+let artInfoSup = document.querySelectorAll(".infoSup__content")
 
 window.addEventListener("scroll" , scrollHeader)
 
@@ -46,3 +47,15 @@ function scrollHeader(){
   }
   lastScrollTop = scrollTop
 }
+
+
+artInfoSup.forEach(art => art.addEventListener("mouseenter" , ()=>{
+  let btn = art.querySelector("button")
+  btn.style.color = "#80C6FF"
+  btn.style.backgroundColor = "#0b0b0b"
+}))
+artInfoSup.forEach(art => art.addEventListener("mouseleave" , ()=>{
+  let btn = art.querySelector("button")
+  btn.style.color = "#000"
+  btn.style.backgroundColor = "#fff"
+}))
