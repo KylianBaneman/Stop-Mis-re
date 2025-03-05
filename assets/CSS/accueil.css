@@ -271,15 +271,15 @@ header{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 25px auto;
 }
 .content__text h3{
   font-size: 25px;
-  margin: 20px auto;
+  margin-bottom: 10px;
 }
 .content__text p{
   text-align: center;
   width: 90%;
-  margin: 20px auto;
 }
 
 /* ------------------------ Responsive mobile ------------------------ */
