@@ -12,39 +12,18 @@ let trigger_modal = document.querySelector(".trigger--modal")
 let Modal = document.querySelector(".modal")
 let btn = document.querySelector(".button")
 
-window.addEventListener("scroll" , scrollHeader)
-
-btn.addEventListener("click" , toggleContact)
-
-function toggleContact(e){
-  e.preventDefault()
-  Overlay_modal.classList.toggle("active")
-  Modal.classList.toggle("active")
-}
-
-trigger_modal.addEventListener("click" , toggleContactClose)
-
-function toggleContactClose(){
-  Overlay_modal.classList.toggle("active")
-  Modal.classList.toggle("active")
-}
-
-menuBurgerIcon.addEventListener("click" , toggleBurger)
-
-function toggleBurger(){
-  menuBurgerIcon.classList.toggle("active")
-  menuBurger.classList.toggle("active")
-  Overlay.classList.toggle("active")
-}
-
-trigger.addEventListener("click" , toggleclose)
-
-function toggleclose(){
-  menuBurgerIcon.classList.toggle("active")
-  menuBurger.classList.toggle("active")
-  Overlay.classList.toggle("active")
-}
-
+artInfoSup.forEach(art => art.addEventListener("mouseenter" , ()=>{
+  let btn = art.querySelector("button")
+  let linkBtn = art.querySelector("button a")
+  linkBtn.style.color = "#80C6FF"
+  btn.style.backgroundColor = "#0b0b0b"
+}))
+artInfoSup.forEach(art => art.addEventListener("mouseleave" , ()=>{
+  let btn = art.querySelector("button")
+  let linkBtn = art.querySelector("button a")
+  linkBtn.style.color = "#000"
+  btn.style.backgroundColor = "#fff"
+}))
 onglets.forEach(onglet => onglet.addEventListener("mouseenter" , () =>{
   let lien = onglet.querySelector(".lien")
   lien.style.transform = "scale(1.1)"
@@ -53,6 +32,19 @@ onglets.forEach(onglet => onglet.addEventListener("mouseleave" , () =>{
   let lien = onglet.querySelector(".lien")
   lien.style.transform = "scale(1)"
 }))
+
+
+window.addEventListener("scroll" , scrollHeader)
+
+btn.addEventListener("click" , toggleContact)
+trigger_modal.addEventListener("click" , toggleContactClose)
+
+
+menuBurgerIcon.addEventListener("click" , toggleBurger)
+trigger.addEventListener("click" , toggleBurgerclose)
+
+
+
 
 function scrollHeader(){
   let scrollTop = window.pageYOffset || document.documentElement.scrollTop
@@ -68,15 +60,25 @@ function scrollHeader(){
 }
 
 
-artInfoSup.forEach(art => art.addEventListener("mouseenter" , ()=>{
-  let btn = art.querySelector("button")
-  let linkBtn = art.querySelector("button a")
-  linkBtn.style.color = "#80C6FF"
-  btn.style.backgroundColor = "#0b0b0b"
-}))
-artInfoSup.forEach(art => art.addEventListener("mouseleave" , ()=>{
-  let btn = art.querySelector("button")
-  let linkBtn = art.querySelector("button a")
-  linkBtn.style.color = "#000"
-  btn.style.backgroundColor = "#fff"
-}))
+function toggleBurger(){
+  menuBurgerIcon.classList.toggle("active")
+  menuBurger.classList.toggle("active")
+  Overlay.classList.toggle("active")
+}
+function toggleBurgerclose(){
+  menuBurgerIcon.classList.toggle("active")
+  menuBurger.classList.toggle("active")
+  Overlay.classList.toggle("active")
+}
+
+
+
+function toggleContactClose(){
+  Overlay_modal.classList.toggle("active")
+  Modal.classList.toggle("active")
+}
+function toggleContact(e){
+  e.preventDefault()
+  Overlay_modal.classList.toggle("active")
+  Modal.classList.toggle("active")
+}

@@ -42,7 +42,7 @@ html, body {
 /* ------------------------ Fond d'image ------------------------ */
 
 .fond{
-  background-image: url(https://static.vecteezy.com/system/resources/previews/032/940/265/non_2x/green-meadow-lone-tree-tranquil-horizon-at-dawn-free-photo.jpg);
+  background-image: url(/assets/Img/AdobeStock_445875264.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -183,21 +183,27 @@ header{
 /* ------------------------ Texte + button sur le fond ------------------------ */
 
 .fond__texte{
+  background-color: rgba(240, 240, 240, 0.3); /* Légèrement plus transparent */
+  backdrop-filter: blur(6px); /* Applique un flou de 10px */
+  -webkit-backdrop-filter: blur(10px); /* Pour compatibilité Safari */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 300px;
+  margin: 300px auto 0px auto;
+  padding: 20px;
+  width: 55%;
+  border-radius: 18px;
 }
 
 .fond__texte p{
-  font-size: 55px;
+  font-size: 45px;
   font-weight: 600;
 }
 .fond__texte__slogan p{
   font-weight: 500;
   margin: 10px auto;
-  font-size: 50px;
+  font-size: 35px;
 }
 .fond__texte__slogan{
   display: flex;
@@ -207,6 +213,10 @@ header{
 }
 
 .fond__texte__button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   opacity: 0;
   margin: 40px auto 0px auto;
 }
@@ -265,25 +275,15 @@ form{
   border-radius: 18px;
 }
 
-.genre__checkbox{
-  display: flex;
-}
-.genre__checkbox div{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-.genre__checkbox input{
-  width: 100%;
-}
 
 .flex{
   display: flex;
+  justify-content: center;
+  gap: 200px;
   width: 100%;
 }
 .flex div{
   width: 100%;
-  padding: 0px 10px;
 }
 
 label{
@@ -294,6 +294,26 @@ input{
   height: 35px;
   margin-top: 10px;
   margin-bottom: 15px;
+}
+
+
+.genre__checkbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.genre__checkbox div{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+.genre__checkbox input{
+  width: 20px;
+  height: 20px;
+}
+.genre__checkbox label{
+  margin-bottom:5px ;
 }
 
 /* ------------------------ Footer ------------------------ */
