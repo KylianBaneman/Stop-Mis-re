@@ -2,8 +2,11 @@ let Overlay_modal = document.querySelector(".overlay--modal")
 let trigger_modal = document.querySelector(".trigger--modal")
 let Modal = document.querySelector(".modal")
 let btn = document.querySelector(".button")
+let inps = document.querySelectorAll(".contact input")
+let tarea = document.querySelector("textarea")
+let form = document.querySelector("form")
 
-btn.addEventListener("click" , toggleContact)
+form.addEventListener("submit" , toggleContact)
 trigger_modal.addEventListener("click" , toggleContactClose)
 
 function toggleContactClose(){
@@ -12,6 +15,14 @@ function toggleContactClose(){
 }
 function toggleContact(e){
   e.preventDefault()
-  Overlay_modal.classList.toggle("active")
-  Modal.classList.toggle("active")
-}
+  let envoie = true
+  inps.forEach(inp=>{
+    if(inp.value === "" && tarea.value === ""){
+      envoie = false
+    }
+  })
+  if(envoie){
+    Overlay_modal.classList.toggle("active")
+    Modal.classList.toggle("active")
+    }
+  }
