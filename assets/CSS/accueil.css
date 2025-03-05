@@ -308,6 +308,7 @@ footer{
   background-color: #0b0b0b;
   color: #fff;
   padding-top: 75px ;
+  height: 70vh;
 }
 
 .footer__reseaux{
@@ -327,7 +328,29 @@ footer{
 .footer__lienLégaux a{
   text-decoration: none;
   color: #80C6FF;
-  
+  font-size: 18px;
+}
+
+.footer__logo{
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__logo__content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+}
+
+.footer__logo__content img{
+  width: auto;
+  height: 100%;
 }
 /* ------------------------ Responsive mobile ------------------------ */
 
