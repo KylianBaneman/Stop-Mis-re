@@ -311,11 +311,29 @@ input{
 .genre__checkbox input{
   width: 20px;
   height: 20px;
+  cursor: pointer;
 }
 .genre__checkbox label{
   margin-bottom:5px ;
 }
 
+.wrap{
+  flex-wrap: wrap;
+}
+
+.benevole__email{
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  width: 100%;
+}
+
+.benevole__email div{
+  width: 100%;
+}
+.benevole__email input{
+  width: 100%;
+}
 /* ------------------------ Footer ------------------------ */
 
 footer{
