@@ -6,7 +6,7 @@ let Overlay = document.querySelector(".overlay--burger")
 let trigger = document.querySelector(".trigger")
 let lastScrollTop = 0
 let headerHidden = false
-let artInfoSup = document.querySelectorAll(".infoSup__content")
+let artInfoSup = document.querySelectorAll(".rejoindreSup__content")
 
 window.addEventListener("scroll" , scrollHeader)
 

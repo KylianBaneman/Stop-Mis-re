@@ -234,16 +234,16 @@ header{
 }
 
 
-/* ------------------------ Info supplémentaire ( lieu , s'engager , don ------------------------ */
+/* ------------------------ Nous rejoindre ------------------------ */
 
 
-.infoSup{
+.rejoindreSup{
   display: flex;
   justify-content: center;
   gap: 50px;
   align-items: center;
   width: 90%;
-  margin: 50px auto;
+  margin: 50px auto 100px auto;
 }
 
 .rejoindre h2{
@@ -261,14 +261,14 @@ hr{
   margin: 50px auto;
 }
 
-.infoSup__content{
+.rejoindreSup__content{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.content__img{
+.rejoindreSup_content__img{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -276,29 +276,29 @@ hr{
   height: 100px;
   overflow: hidden;
 }
-.content__img img{
+.rejoindreSup_content__img img{
   width: auto;
   height: 100%;
 }
 
-.content__text{
+.rejoindreSup_content__text{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 25px auto;
 }
-.content__text h3{
+.rejoindreSup_content__text h3{
   font-size: 25px;
   margin-bottom: 10px;
 }
-.content__text p{
+.rejoindreSup_content__text p{
   text-align: center;
   width: 75%;
 }
 
 
-.content__btn button{
+.rejoindreSup_content__btn button{
   background-color:#fff ;
   border: 1.5px solid #0b0b0b;
   font-size: 16px;
@@ -311,10 +311,6 @@ hr{
   transition: all 0.4s;
 }
 
-.infoSup__content button:hover{
-  color: #80C6FF;
-  background-color: #0b0b0b;
-}
 
 
 /* ------------------------ Footer ------------------------ */
