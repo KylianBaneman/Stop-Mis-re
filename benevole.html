@@ -47,61 +47,71 @@
       <p class="benevole__p">Merci de vouloir nous aider en voulant devenir bénévole</p>
       <hr>
       <form action="" method="get">
-        <div class="flex">
-          <div>
-            <label for="nom">Nom <span>*</span></label><input type="text" name="last-name" id="nom">
+        <div class="form__content__input">
+          <div class="content__firstCol">
+            <div>
+              <label for="nom">Nom <span>*</span></label><input type="text" name="last-name" id="nom">
+            </div>
+            <div>
+              <label for="prenom">Prénom <span>*</span></label><input type="text" name="first-name" id="prenom">
+            </div>
+            <div>
+              <label for="email">Email <span>*</span></label><input type="email" name="email" id="email">
+            </div>
           </div>
-          <div>
-            <label for="prenom">Prénom <span>*</span></label><input type="text" name="first-name" id="prenom">
+          <div class="content__firstCol">
+            <div>
+              <label for="telephone">Téléphone <span>*</span></label><input type="text" name="telephone" id="téléphone">
+            </div>
+            <div>
+              <label for="cdpostal">Code postal <span>*</span></label><input type="text" name="cdpostal" id="cdpostal">
+            </div>
+            <div>
+              <label for="ville">Ville <span>*</span></label><input type="text" name="ville" id="ville">
+            </div>
           </div>
-          <div>
-            <label for="genre">Genre <span>*</span></label>
-            <div class="genre__checkbox">
-              <div>
-                <label for="homme">Homme</label>
-                <input type="checkbox" name="homme" id="homme">
+          <div class="content__second">
+            <div>
+              <label for="genre" class="genre">Genre <span>*</span></label>
+              <div class="genre__checkbox">
+                <div>
+                  <label for="homme">Homme</label>
+                  <input type="radio" name="homme" id="homme">
+                </div>
+                <div>
+                  <label for="femme">Femme</label>
+                  <input type="radio" name="femme" id="femme">
+                </div>
               </div>
-              <div>
-                <label for="femme">Femme</label>
-                <input type="checkbox" name="femme" id="femme">
+            </div>
+            <div>
+              <label for="permis" class="permis">Permis de conduire <span>*</span></label>
+              <div class="genre__checkbox">
+                <div>
+                  <label for="p_a">Permis A</label>
+                  <input type="radio" name="permia" id="permia">
+                </div>
+                <div>
+                  <label for="p_b">Permis B</label>
+                  <input type="radio" name="permib" id="permib">
+                </div>
+                <div>
+                  <label for="p_pl">Permis poids lourds</label>
+                  <input type="radio" name="permipl" id="permipl">
+                </div>
+                <div>
+                  <label for="non">Non véhiculé </label>
+                  <input type="radio" name="non" id="non">
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="benevole__email">
-          <div>
-            <label for="email">Email <span>*</span></label><input type="email" name="email" id="email">
-          </div>
-          <div>
-            <label for="telephone">Téléphone <span>*</span></label><input type="text" name="telephone" id="téléphone">
-          </div>
+        <div class="form__content__tarea">
+          <label for="dispo">Veuillez mettre vos disponibilitées et toutes autres informations complémentaires : <span>*</span></label>
+          <textarea name="dispo" id="dispo"></textarea>
         </div>
-        <div class="flex">
-          <div>
-            <label for="ville">Ville <span>*</span></label><input type="text" name="ville" id="ville">
-          </div>
-          <div>
-            <label for="permis">Permis de conduire <span>*</span></label>
-            <div class="genre__checkbox wrap">
-              <div>
-                <label for="p_a">Permis A</label>
-                <input type="checkbox" name="permia" id="permia">
-              </div>
-              <div>
-                <label for="p_b">Permis B</label>
-                <input type="checkbox" name="permib" id="permib">
-              </div>
-              <div>
-                <label for="p_pl">Permis poids lourds</label>
-                <input type="checkbox" name="permipl" id="permipl">
-              </div>
-              <div>
-                <label for="non">Non</label>
-                <input type="checkbox" name="non" id="non">
-              </div>
-            </div>
-          </div>
-        </div>
+        <div class="form__content__btn"><button>Envoyer</button></div>
       </form>
     </section>
   </main>

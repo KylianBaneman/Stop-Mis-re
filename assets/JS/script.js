@@ -8,9 +8,6 @@ let lastScrollTop = 0
 let headerHidden = false
 let artInfoSup = document.querySelectorAll(".rejoindreSup__content")
 
-
-
-
 artInfoSup.forEach(art => art.addEventListener("mouseenter" , ()=>{
   let btnart = art.querySelector("button")
   let linkBtn = art.querySelector("button a")
@@ -34,7 +31,7 @@ onglets.forEach(onglet => onglet.addEventListener("mouseleave" , () =>{
 
 
 
-
+window.addEventListener("scroll" , scrollHeader)
 
 
 menuBurgerIcon.addEventListener("click" , toggleBurger)
