@@ -461,13 +461,12 @@ footer{
   }
   .fond__texte p {
     text-align: center;
-    font-size: 50px;
   }
   .fond__texte__slogan p{
-    width: 90%;
-    font-size: 40px;
+    width: 100%;
   }
   .fond__texte{
+    width: 80%;
     margin-top: 150px;
   }
   .rejoindreSup{
