@@ -304,9 +304,31 @@ header{
 
 /* ------------------------ Footer ------------------------ */
 
+footer{
+  background-color: #0b0b0b;
+  color: #fff;
+  padding-top: 75px ;
+}
 
+.footer__reseaux{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
 
-
+.footer__lienLégaux{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin: 50px auto;
+}
+.footer__lienLégaux a{
+  text-decoration: none;
+  color: #80C6FF;
+  
+}
 /* ------------------------ Responsive mobile ------------------------ */
 
 @media screen and (max-width : 750px) {
