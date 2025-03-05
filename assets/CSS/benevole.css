@@ -46,7 +46,8 @@ html, body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 100dvh;
+  min-height: 100vh;
 }
 
 /* ------------------------ Header ------------------------ */
@@ -153,8 +154,9 @@ header{
   position: fixed;
   z-index: 10;
   display: flex;
-  justify-content: center;
-  align-items: start;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   width: 50%;
   height: 100vh;
   background-color: #fff;
@@ -163,6 +165,21 @@ header{
   transform: translateX(-100%);
   transition : transform 0.3s cubic-bezier(0.73,0.11,0.67,0.84);
 }
+
+.menuBurger__img{
+  margin-top: 50px;
+  display : flex; 
+  justify-content : center;
+  align-items : center ;
+  width : 90px;
+  height : 100px;
+}
+
+.menuBurger__img img{
+  width : 100%;
+  height : auto;
+}
+
 .menuBurger ul{
   list-style: none;
 }
@@ -174,7 +191,7 @@ header{
   text-decoration: none;
   width: auto;
   font-size: 20px;
-  margin: 50px 0px;
+  margin: 30px 0px;
 }
 .menuBurger.active{
   transform: translateX(0);
@@ -486,6 +503,10 @@ footer{
     width: 100%;
   }
   .form__content__tarea{
-    margin-left:0px ;
+    margin:50px auto 0px auto;
+  }
+  .form__content__tarea textarea{
+    width: 100%;
+    height: 150px;
   }
 }
