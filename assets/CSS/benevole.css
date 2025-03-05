@@ -200,7 +200,7 @@ header{
 /* ------------------------ Texte + button sur le fond ------------------------ */
 
 .fond__texte{
-  background-color: rgba(240, 240, 240, 0.3); 
+  background-color: rgba(32, 32, 32, 0.3); 
   backdrop-filter: blur(6px); 
   -webkit-backdrop-filter: blur(10px); 
   display: flex;
@@ -211,6 +211,7 @@ header{
   padding: 20px;
   width: 55%;
   border-radius: 18px;
+  color: #fff;
 }
 
 .fond__texte p{

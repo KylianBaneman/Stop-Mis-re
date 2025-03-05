@@ -42,11 +42,12 @@ html, body {
 /* ------------------------ Fond d'image ------------------------ */
 
 .fond{
-  background-image: url(https://static.vecteezy.com/system/resources/previews/032/940/265/non_2x/green-meadow-lone-tree-tranquil-horizon-at-dawn-free-photo.jpg);
+  background-image: url(/assets/Img/AdobeStock_445875264.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 100dvh;
+  min-height: 100vh;
 }
 
 /* ------------------------ Header ------------------------ */
@@ -153,8 +154,9 @@ header{
   position: fixed;
   z-index: 10;
   display: flex;
-  justify-content: center;
-  align-items: start;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   width: 50%;
   height: 100vh;
   background-color: #fff;
@@ -163,6 +165,21 @@ header{
   transform: translateX(-100%);
   transition : transform 0.3s cubic-bezier(0.73,0.11,0.67,0.84);
 }
+
+.menuBurger__img{
+  margin-top: 50px;
+  display : flex; 
+  justify-content : center;
+  align-items : center ;
+  width : 90px;
+  height : 100px;
+}
+
+.menuBurger__img img{
+  width : 100%;
+  height : auto;
+}
+
 .menuBurger ul{
   list-style: none;
 }
@@ -174,7 +191,7 @@ header{
   text-decoration: none;
   width: auto;
   font-size: 20px;
-  margin: 50px 0px;
+  margin: 30px 0px;
 }
 .menuBurger.active{
   transform: translateX(0);
@@ -183,21 +200,28 @@ header{
 /* ------------------------ Texte + button sur le fond ------------------------ */
 
 .fond__texte{
+  background-color: rgba(32, 32, 32, 0.3); 
+  backdrop-filter: blur(6px); 
+  -webkit-backdrop-filter: blur(10px); 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 300px;
+  margin: 300px auto 0px auto;
+  padding: 20px;
+  width: 55%;
+  border-radius: 18px;
+  color: #fff;
 }
 
 .fond__texte p{
-  font-size: 55px;
+  font-size: 45px;
   font-weight: 600;
 }
 .fond__texte__slogan p{
   font-weight: 500;
   margin: 10px auto;
-  font-size: 50px;
+  font-size: 35px;
 }
 .fond__texte__slogan{
   display: flex;
@@ -207,6 +231,10 @@ header{
 }
 
 .fond__texte__button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   opacity: 0;
   margin: 40px auto 0px auto;
 }
