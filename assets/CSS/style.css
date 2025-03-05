@@ -311,7 +311,10 @@ hr{
   transition: all 0.4s;
 }
 
-
+.rejoindreSup_content__btn button a{
+  text-decoration: none;
+  color: #0b0b0b;
+}
 
 /* ------------------------ Footer ------------------------ */
 

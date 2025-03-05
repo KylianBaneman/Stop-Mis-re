@@ -51,11 +51,13 @@ function scrollHeader(){
 
 artInfoSup.forEach(art => art.addEventListener("mouseenter" , ()=>{
   let btn = art.querySelector("button")
-  btn.style.color = "#80C6FF"
+  let linkBtn = art.querySelector("button a")
+  linkBtn.style.color = "#80C6FF"
   btn.style.backgroundColor = "#0b0b0b"
 }))
 artInfoSup.forEach(art => art.addEventListener("mouseleave" , ()=>{
   let btn = art.querySelector("button")
-  btn.style.color = "#000"
+  let linkBtn = art.querySelector("button a")
+  linkBtn.style.color = "#000"
   btn.style.backgroundColor = "#fff"
 }))
