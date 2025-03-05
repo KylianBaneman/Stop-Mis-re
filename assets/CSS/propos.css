@@ -233,7 +233,75 @@ header{
   transform: translate(5px , -5px);
 }
 
+/* ------------------------ Footer ------------------------ */
 
+footer{
+  background-color: #0b0b0b;
+  color: #fff;
+  padding: 75px 0px 40px 0px;
+}
+
+.footer__reseaux{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.reseaux__content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 60px;
+  overflow: hidden;
+}
+
+.reseaux__content img{
+  width: 100%;
+  height: auto;
+}
+
+.footer__lienLégaux{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin: 50px auto;
+}
+.footer__lienLégaux a{
+  text-decoration: none;
+  color: #80C6FF;
+  font-size: 18px;
+}
+
+.footer__logo{
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__logo p{
+  color: #80C6FF;
+  font-size: 18px;
+  margin: 3px;
+}
+
+.footer__logo__content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 275px;
+  height: 250px;
+  overflow: hidden;
+}
+
+.footer__logo__content img{
+  width: auto;
+  height: 100%;
+}
 
 @media screen and (max-width : 750px) {
   .header__menu{
