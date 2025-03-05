@@ -12,6 +12,8 @@ let trigger_modal = document.querySelector(".trigger--modal")
 let Modal = document.querySelector(".modal")
 let btn = document.querySelector(".button")
 
+window.addEventListener("scroll" , scrollHeader)
+
 btn.addEventListener("click" , toggleContact)
 
 function toggleContact(e){
@@ -26,7 +28,6 @@ function toggleContactClose(){
   Overlay_modal.classList.toggle("active")
   Modal.classList.toggle("active")
 }
-window.addEventListener("scroll" , scrollHeader)
 
 menuBurgerIcon.addEventListener("click" , toggleBurger)
 
