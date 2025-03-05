@@ -7,22 +7,21 @@ let trigger = document.querySelector(".trigger")
 let lastScrollTop = 0
 let headerHidden = false
 let artInfoSup = document.querySelectorAll(".rejoindreSup__content")
-let Overlay_modal = document.querySelector(".overlay--modal")
-let trigger_modal = document.querySelector(".trigger--modal")
-let Modal = document.querySelector(".modal")
-let btn = document.querySelector(".button")
+
+
+
 
 artInfoSup.forEach(art => art.addEventListener("mouseenter" , ()=>{
-  let btn = art.querySelector("button")
+  let btnart = art.querySelector("button")
   let linkBtn = art.querySelector("button a")
   linkBtn.style.color = "#80C6FF"
-  btn.style.backgroundColor = "#0b0b0b"
+  btnart.style.backgroundColor = "#0b0b0b"
 }))
 artInfoSup.forEach(art => art.addEventListener("mouseleave" , ()=>{
-  let btn = art.querySelector("button")
+  let btnart = art.querySelector("button")
   let linkBtn = art.querySelector("button a")
   linkBtn.style.color = "#000"
-  btn.style.backgroundColor = "#fff"
+  btnart.style.backgroundColor = "#fff"
 }))
 onglets.forEach(onglet => onglet.addEventListener("mouseenter" , () =>{
   let lien = onglet.querySelector(".lien")
@@ -34,10 +33,8 @@ onglets.forEach(onglet => onglet.addEventListener("mouseleave" , () =>{
 }))
 
 
-window.addEventListener("scroll" , scrollHeader)
 
-btn.addEventListener("click" , toggleContact)
-trigger_modal.addEventListener("click" , toggleContactClose)
+
 
 
 menuBurgerIcon.addEventListener("click" , toggleBurger)
@@ -73,12 +70,3 @@ function toggleBurgerClose(){
 
 
 
-function toggleContactClose(){
-  Overlay_modal.classList.toggle("active")
-  Modal.classList.toggle("active")
-}
-function toggleContact(e){
-  e.preventDefault()
-  Overlay_modal.classList.toggle("active")
-  Modal.classList.toggle("active")
-}
