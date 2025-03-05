@@ -41,7 +41,7 @@ trigger_modal.addEventListener("click" , toggleContactClose)
 
 
 menuBurgerIcon.addEventListener("click" , toggleBurger)
-trigger.addEventListener("click" , toggleBurgerclose)
+trigger.addEventListener("click" , toggleBurgerClose)
 
 
 
@@ -65,7 +65,7 @@ function toggleBurger(){
   menuBurger.classList.toggle("active")
   Overlay.classList.toggle("active")
 }
-function toggleBurgerclose(){
+function toggleBurgerClose(){
   menuBurgerIcon.classList.toggle("active")
   menuBurger.classList.toggle("active")
   Overlay.classList.toggle("active")
