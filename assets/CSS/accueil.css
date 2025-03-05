@@ -257,13 +257,13 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 100px;
   overflow: hidden;
 }
 .content__img img{
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 
 .content__text{
@@ -279,7 +279,7 @@ header{
 }
 .content__text p{
   text-align: center;
-  width: 90%;
+  width: 75%;
 }
 
 
@@ -300,6 +300,11 @@ header{
   color: #80C6FF;
   background-color: #0b0b0b;
 }
+
+
+/* ------------------------ Footer ------------------------ */
+
+
 
 
 /* ------------------------ Responsive mobile ------------------------ */
