@@ -234,6 +234,54 @@ header{
 }
 
 
+/* ------------------------ Info supplémentaire ( lieu , s'engager , don ------------------------ */
+
+
+.infoSup{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  width: 90%;
+  margin: 50px auto;
+}
+
+.infoSup__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content__img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+.content__img img{
+  width: 100%;
+  height: auto;
+}
+
+.content__text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content__text h3{
+  font-size: 25px;
+  margin: 20px auto;
+}
+.content__text p{
+  text-align: center;
+  width: 90%;
+  margin: 20px auto;
+}
+
 /* ------------------------ Responsive mobile ------------------------ */
 
 @media screen and (max-width : 750px) {
