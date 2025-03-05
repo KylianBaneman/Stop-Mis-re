@@ -32,11 +32,45 @@ html, body {
   }
 }
 
-.popAnimation{
-  animation: sloganPopAgir 0.5s ease-out;
+@keyframes pop {
+  from{
+    opacity: 0;
+    scale: 0.5;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
 }
-.popAnimation1{
-  animation: sloganPopTexte 0.6s ease-out 0.6s forwards;
+
+@keyframes popLeft {
+  from{
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.popAnimationTxt{
+  animation: sloganPopAgir 0.5s ease-out 0.4s forwards;
+}
+.popAnimationBtn{
+  animation: sloganPopTexte 0.6s ease-out 1s forwards;
+}
+
+.popAnimationScroll{
+  animation: pop ease-out;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
+}
+
+.popLeftAnimationScroll{
+  animation: popLeft ease-out;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
 }
 
 /* ------------------------ Fond d'image ------------------------ */
@@ -212,6 +246,11 @@ header{
   width: 55%;
   border-radius: 18px;
   color: #fff;
+}
+
+
+.fond__texte__agissons{
+  opacity: 0;
 }
 
 .fond__texte p{
