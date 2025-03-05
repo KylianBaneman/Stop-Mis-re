@@ -307,14 +307,27 @@ header{
 footer{
   background-color: #0b0b0b;
   color: #fff;
-  padding-top: 75px ;
-  height: 70vh;
+  padding: 75px 0px 40px 0px;
 }
 
 .footer__reseaux{
   display: flex;
   justify-content: center;
   gap: 40px;
+}
+
+.reseaux__content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.reseaux__content img{
+  width: auto;
+  height: 100%;
 }
 
 .footer__lienLégaux{
@@ -337,6 +350,11 @@ footer{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.footer__logo p{
+  font-size: 18px;
+  margin: 3px;
 }
 
 .footer__logo__content{
