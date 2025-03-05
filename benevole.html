@@ -49,10 +49,10 @@
       <form action="" method="get">
         <div class="flex">
           <div>
-            <label for="nom">Nom <span>*</span></label><input class="nom" type="text" name="last-name" id="nom" required>
+            <label for="nom">Nom <span>*</span></label><input type="text" name="last-name" id="nom">
           </div>
           <div>
-            <label for="prenom">Prénom <span>*</span></label><input class="nom" type="text" name="first-name" id="prenom" required>
+            <label for="prenom">Prénom <span>*</span></label><input type="text" name="first-name" id="prenom">
           </div>
           <div>
             <label for="genre">Genre <span>*</span></label>
@@ -64,6 +64,40 @@
               <div>
                 <label for="femme">Femme</label>
                 <input type="checkbox" name="femme" id="femme">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex">
+          <div>
+            <label for="email">Email <span>*</span></label><input type="email" name="email" id="email">
+          </div>
+          <div>
+            <label for="telephone">Téléphone <span>*</span></label><input type="text" name="telephone" id="téléphone">
+          </div>
+        </div>
+        <div class="flex">
+          <div>
+            <label for="ville">Ville <span>*</span></label><input type="text" name="ville" id="ville">
+          </div>
+          <div>
+            <label for="permis">Permis de conduire <span>*</span></label>
+            <div class="genre__checkbox">
+              <div>
+                <label for="p_a">Permis A</label>
+                <input type="checkbox" name="permia" id="permia">
+              </div>
+              <div>
+                <label for="p_b">Permis B</label>
+                <input type="checkbox" name="permib" id="permib">
+              </div>
+              <div>
+                <label for="p_pl">Permis poids lourds</label>
+                <input type="checkbox" name="permipl" id="permipl">
+              </div>
+              <div>
+                <label for="non">Non</label>
+                <input type="checkbox" name="non" id="non">
               </div>
             </div>
           </div>

@@ -183,9 +183,9 @@ header{
 /* ------------------------ Texte + button sur le fond ------------------------ */
 
 .fond__texte{
-  background-color: rgba(240, 240, 240, 0.3); /* Légèrement plus transparent */
-  backdrop-filter: blur(6px); /* Applique un flou de 10px */
-  -webkit-backdrop-filter: blur(10px); /* Pour compatibilité Safari */
+  background-color: rgba(240, 240, 240, 0.3); 
+  backdrop-filter: blur(6px); 
+  -webkit-backdrop-filter: blur(10px); 
   display: flex;
   flex-direction: column;
   justify-content: center;
