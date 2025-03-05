@@ -60,6 +60,7 @@ header{
 
 .header__menu{
   position: fixed;
+  z-index: 10;
   top: 40px;
   left: 50%;
   transform: translate(-50%);
