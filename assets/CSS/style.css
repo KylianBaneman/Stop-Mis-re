@@ -443,4 +443,7 @@ footer{
   .fond__texte{
     margin-top: 150px;
   }
+  .rejoindreSup{
+    flex-direction: column;
+  }
 }
