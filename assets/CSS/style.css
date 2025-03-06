@@ -10,7 +10,7 @@
 html, body {
   overscroll-behavior: none;
   touch-action: pan-x pan-y;
-  overflow-x: hidden;
+
 }
 h1 , h2 , h3{
   font-family: "franklin-gothic-atf", sans-serif;
@@ -81,13 +81,13 @@ h1 , h2 , h3{
 }
 
 .popAnimationScroll{
-  animation: pop ease-out;
+  animation: pop ease-out forwards;
   animation-timeline: view();
   animation-range: entry 0% cover 50%;
 }
 
 .popLeftAnimationScroll{
-  animation: popLeft ease-out;
+  animation: popLeft ease-out forwards;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
 }
@@ -647,6 +647,7 @@ footer{
   .bienvenue__content{
     flex-direction: column;
     padding: 20px;
+    width: 95%;
   }
   .bienvenue__content__second{
     flex-direction: column;
