@@ -17,7 +17,7 @@ function toggleContact(e){
   e.preventDefault()
   let envoie = true
   inps.forEach(inp=>{
-    if(inp.value === "" && tarea.value === ""){
+    if(inp.value === "" || tarea.value === ""){
       envoie = false
     }
   })
