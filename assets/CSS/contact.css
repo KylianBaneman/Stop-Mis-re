@@ -1,3 +1,15 @@
+/* ------------------------ Fond d'image ------------------------ */
+
+.fond{
+  background-image: url(/assets/Img/AdobeStock_470465742.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100dvh;
+  min-height: 100vh;
+}
+
+
 h1{
   text-align: center;
   font-size: 30px;

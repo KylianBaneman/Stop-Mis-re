@@ -1,3 +1,14 @@
+/* ------------------------ Fond d'image ------------------------ */
+
+.fond{
+  background-image: url(/assets/Img/propos.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100dvh;
+  min-height: 100vh;
+}
+
 .bienvenue{
   margin: 50px 0px;
 }
