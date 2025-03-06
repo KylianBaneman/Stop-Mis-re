@@ -33,10 +33,10 @@ function toggleContact(e){
 btnDon.addEventListener("mouseenter" , ()=>{
   let btnLink = btnDon.querySelector("a")
   btnLink.style.color = "#80C6FF"
-  btnDon.style.backgroundColor = "#0b0b0b"
+  btnDon.style.backgroundColor = "#0e0f0e"
 })
 btnDon.addEventListener("mouseleave" , ()=>{
   let btnLink = btnDon.querySelector("a")
-  btnLink.style.color = "#0b0b0b"
-  btnDon.style.backgroundColor = "#fff"
+  btnLink.style.color = "#0e0f0e"
+  btnDon.style.backgroundColor = "#F2FAFC"
 })

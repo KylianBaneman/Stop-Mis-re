@@ -25,14 +25,14 @@ h1{
 
 hr{
   height: 1.5px;
-  background-color: #000;
+  background-color: #0e0f0e;
   border: none;
   width: 30%;
   margin: 50px auto;
 }
 
 form{
-  border: 1.5px solid #0b0b0b;
+  border: 1.5px solid #0e0f0e;
   width: 70%;
   margin: 50px auto;
   padding: 20px;
@@ -80,7 +80,7 @@ textarea{
   margin-top: 50px;
 }
 .divboutton .button{
-  background-color: #0b0b0b;
+  background-color: #0e0f0e;
   border: none;
   border-radius: 10px;
   padding: 10px;
@@ -103,7 +103,7 @@ span{
 
 .hr{
   height: 1.5px;
-  background-color: #000;
+  background-color: #0e0f0e;
   border: none;
   width: 30%;
   margin: 150px auto 100px auto;
@@ -111,10 +111,10 @@ span{
 
 
 .don button{
-  background-color:#fff ;
-  border: 1.5px solid #0b0b0b;
+  background-color:#F2FAFC;
+  border: 1.5px solid #0e0f0e;
   font-size: 20px;
-  color: #0b0b0b;
+  color: #0e0f0e;
   border-radius:8px ;
   padding: 30px;
   text-align: center;
@@ -125,7 +125,7 @@ span{
 
 .don button a{
   text-decoration: none;
-  color: #0b0b0b;
+  color: #0e0f0e;
 }
 
 @media screen and (max-width : 750px) {

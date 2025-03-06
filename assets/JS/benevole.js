@@ -43,12 +43,9 @@ function submitForm(e){
         isCheckP = true
       }
   })
-  console.log(isCheckG , isCheckP , envoie);
-
   if (!isCheckG || !isCheckP) {
     envoie = false
   }
-
   if(envoie){
     Overlay_modal.classList.toggle("active")
     Modal.classList.toggle("active")

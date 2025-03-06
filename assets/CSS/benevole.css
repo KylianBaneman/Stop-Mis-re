@@ -26,14 +26,14 @@ h1{
 
 hr{
   height: 1.5px;
-  background-color: #000;
+  background-color: #0e0f0e;
   border: none;
   width: 30%;
   margin: 50px auto;
 }
 
 form{
-  border: 1.5px solid #0b0b0b;
+  border: 1.5px solid #0e0f0e;
   width: 80%;
   margin: 50px auto;
   padding: 20px;
@@ -128,7 +128,7 @@ span{
 }
 
 .form__content__btn button{
-  background-color: #0b0b0b;
+  background-color: #0e0f0e;
   border: none;
   border-radius: 10px;
   padding: 10px;

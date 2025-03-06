@@ -21,7 +21,7 @@
 
 .bienvenue hr{
   height: 1.5px;
-  background-color: #000;
+  background-color: #0e0f0e;
   border: none;
   width: 40%;
   margin: 30px auto 100px auto;
@@ -126,7 +126,7 @@
 
 hr{
   height: 1.5px;
-  background-color: #000;
+  background-color: #0e0f0e;
   border: none;
   width: 50%;
   margin: 100px auto 50px auto;
@@ -170,10 +170,10 @@ hr{
 
 
 .rejoindreSup_content__btn button{
-  background-color:#fff ;
-  border: 1.5px solid #0b0b0b;
+  background-color:#F2FAFC ;
+  border: 1.5px solid #0e0f0e;
   font-size: 16px;
-  color: #0b0b0b;
+  color: #0e0f0e;
   border-radius:6px ;
   padding: 15px;
   text-align: center;
@@ -184,7 +184,7 @@ hr{
 
 .rejoindreSup_content__btn button a{
   text-decoration: none;
-  color: #0b0b0b;
+  color: #0e0f0e;
 }
 
 

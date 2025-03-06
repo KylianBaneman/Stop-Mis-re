@@ -12,13 +12,13 @@ artInfoSup.forEach(art => art.addEventListener("mouseenter" , ()=>{
   let btnart = art.querySelector("button")
   let linkBtn = art.querySelector("button a")
   linkBtn.style.color = "#80C6FF"
-  btnart.style.backgroundColor = "#0b0b0b"
+  btnart.style.backgroundColor = "#0e0f0e"
 }))
 artInfoSup.forEach(art => art.addEventListener("mouseleave" , ()=>{
   let btnart = art.querySelector("button")
   let linkBtn = art.querySelector("button a")
-  linkBtn.style.color = "#000"
-  btnart.style.backgroundColor = "#fff"
+  linkBtn.style.color = "#0e0f0e"
+  btnart.style.backgroundColor = "#F2FAFC"
 }))
 onglets.forEach(onglet => onglet.addEventListener("mouseenter" , () =>{
   let lien = onglet.querySelector(".lien")

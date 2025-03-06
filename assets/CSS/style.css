@@ -116,7 +116,7 @@ header{
   top: 40px;
   left: 50%;
   transform: translate(-50%);
-  background-color: rgba(255, 255, 255, 1);
+  background-color: #F2FAFC;
   border-radius: 17px;
   width: max-content;
   display: flex;
@@ -145,7 +145,7 @@ header{
 }
 
 .ongletDon{
-  background-color: #000;
+  background-color: #0e0f0e;
   margin-left: 15px;
   padding: 14px 25px 14px 25px;
   border-top-right-radius:18px ;
@@ -158,7 +158,7 @@ header{
 
 .lien{
   display: inline-block;
-  color: rgba(0, 0, 0, 0.8);
+  color: #0e0f0e;
   text-decoration: none;
   transition : color 0.2s ease-out , transform 0.2s ease-out;
 }
@@ -211,8 +211,8 @@ header{
   width: 50%;
   height: 100vh;
   background-color: #fff;
-  border-bottom: 3px solid black;
-  border-right: 3px solid black;
+  border-bottom: 3px solid #0e0f0e;
+  border-right: 3px solid #0e0f0e;
   transform: translateX(-100%);
   transition : transform 0.3s cubic-bezier(0.73,0.11,0.67,0.84);
 }
@@ -244,7 +244,7 @@ header{
 .menuBurger a{
   font-weight: 500;
   display: block;
-  color: #000;
+  color: #0e0f0e;
   text-decoration: none;
   width: auto;
   font-size: 20px;
@@ -269,7 +269,7 @@ header{
   padding: 20px;
   width: max-content;
   border-radius: 18px;
-  color: #fff;
+  color: #F2FAFC;
 }
 
 
@@ -312,7 +312,7 @@ header{
 
 .fond__texte__button__animate span{
   display: inline-block;
-  background: #000;
+  background: #0e0f0e;
   color: #80C6FF;
   padding: 25px;
   font-size: 21px;
@@ -329,8 +329,8 @@ header{
 /* ------------------------ Footer ------------------------ */
 
 footer{
-  background-color: #0b0b0b;
-  color: #fff;
+  background-color: #0e0f0e;
+  color: #F2FAFC;
   padding: 75px 0px 40px 0px;
 }
 
@@ -425,7 +425,7 @@ footer{
     display: block;
     width: 100%;
     height: 2px;
-    background-color: black;
+    background-color: #0e0f0e;
     transition : opacity 0.1s ease-out , transform 0.3s ease-out;
   }
   .l1{
