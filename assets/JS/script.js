@@ -7,18 +7,6 @@ let trigger = document.querySelector(".trigger")
 let lastScrollTop = 0
 let headerHidden = false
 let artInfoSup = document.querySelectorAll(".rejoindreSup__content")
-let btnDon = document.querySelector(".don button")
-
-btnDon.addEventListener("mouseenter" , ()=>{
-  let btnLink = btnDon.querySelector("a")
-  btnLink.style.color = "#80C6FF"
-  btnDon.style.backgroundColor = "#0b0b0b"
-})
-btnDon.addEventListener("mouseleave" , ()=>{
-  let btnLink = btnDon.querySelector("a")
-  btnLink.style.color = "#0b0b0b"
-  btnDon.style.backgroundColor = "#fff"
-})
 
 artInfoSup.forEach(art => art.addEventListener("mouseenter" , ()=>{
   let btnart = art.querySelector("button")

@@ -156,4 +156,10 @@ span{
   .benevole__p{
     width: 90%;
   }
+  h1{
+    width: 80%;
+  }
+  hr{
+    width: 70%;
+  }
 }
