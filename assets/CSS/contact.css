@@ -507,14 +507,12 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 400px;
-  height: 250px;
-  overflow: hidden;
+  width: 200px;
+  height: 200px;
 }
 .modalimg img{
-  overflow: hidden;
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 
 @media screen and (max-width : 750px) {
@@ -586,5 +584,8 @@ footer{
   }
   .contact__p{
     width: 90%;
+  }
+  .modal{
+    width: 80%;
   }
 }
