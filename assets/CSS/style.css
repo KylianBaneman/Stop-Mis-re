@@ -376,12 +376,11 @@ header{
 }
 
 .bienvenue__content__img__zone{
-  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0px auto;
+  margin: 0px 50px;
 }
 
 .bienvenue__content__img{
@@ -394,7 +393,7 @@ header{
 
 .bienvenue__content__img img{
   height: auto;
-  width: 90%;
+  width: 100%;
 }
 
 .bienvenue__content__text__second{
