@@ -2,11 +2,18 @@
   box-sizing : border-box;
   margin :0;
   padding : 0;
-  font-family : sans-serif;
+  font-family: "raleway", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 html, body {
   overscroll-behavior: none;
   touch-action: pan-x pan-y;
+}
+h1 , h2 , h3{
+  font-family: "franklin-gothic-atf", sans-serif;
+  font-weight: 800;
+  font-style: normal;
 }
 /* ------------------------ Animations ------------------------ */
 
