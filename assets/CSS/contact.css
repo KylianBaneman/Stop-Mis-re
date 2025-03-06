@@ -101,6 +101,7 @@ header{
 
 
 .header__menu{
+  border: 1px solid #0e0f0e;
   position: fixed;
   z-index: 10;
   top: 40px;

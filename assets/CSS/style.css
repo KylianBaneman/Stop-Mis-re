@@ -60,6 +60,16 @@ h1 , h2 , h3{
     transform: translateX(0px);
   }
 }
+@keyframes popRight {
+  from{
+    opacity: 0;
+    transform: translateX(150px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
 
 .popAnimationTxt{
   animation: sloganPopAgir 0.5s ease-out 0.4s forwards;
@@ -77,7 +87,13 @@ h1 , h2 , h3{
 .popLeftAnimationScroll{
   animation: popLeft ease-out;
   animation-timeline: view();
-  animation-range: entry 0% cover 50%;
+  animation-range: entry 0% cover 40%;
+}
+
+.popRightAnimationScroll{
+  animation: popRight ease-out;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 
 /* ------------------------ Fond d'image ------------------------ */
@@ -101,6 +117,7 @@ header{
 
 
 .header__menu{
+  border: 1px solid #0e0f0e;
   position: fixed;
   z-index: 10;
   top: 40px;
@@ -308,6 +325,95 @@ header{
   transform: translate(5px , -5px);
 }
 
+
+
+.bienvenue{
+  margin: 50px 0px;
+}
+
+.bienvenue h1{
+  margin: 100px auto 20px auto;
+  font-size: 35px;
+  text-align: center;
+}
+
+.bienvenue hr{
+  height: 1.5px;
+  background-color: #000;
+  border: none;
+  width: 40%;
+  margin: 30px auto 100px auto;
+}
+
+.bienvenue__content{
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  width: 90vw;
+  background-color: #0e0f0e;
+  color: #80C6FF;
+  margin: 30px auto 30px 150px;
+}
+.bienvenue__content__second{
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  width: 90vw;
+  background-color: #0e0f0e;
+  color: #80C6FF;
+  margin: 30px 150px 30px auto;
+}
+
+.bienvenue__content__img__zone{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.bienvenue__content__img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+}
+
+.bienvenue__content__img img{
+  height: auto;
+  width: 100%;
+}
+
+.bienvenue__content__text__second{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bienvenue__content__text{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bienvenue__content__text h3{
+  margin-bottom: 40px;
+}
+.bienvenue__content__text p{
+  font-size: 18px;
+  margin-top: 20px;
+}
+.bienvenue__content__text__second h3{
+  margin-bottom: 40px;
+}
+.bienvenue__content__text__second p{
+  font-size: 18px;
+  margin-top: 20px;
+}
+
 /* ------------------------ Nous rejoindre ------------------------ */
 
 
@@ -332,7 +438,7 @@ hr{
   background-color: #000;
   border: none;
   width: 50%;
-  margin: 50px auto;
+  margin: 100px auto 50px auto;
 }
 
 .rejoindreSup__content{
