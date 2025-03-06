@@ -24,5 +24,7 @@ function toggleContact(e){
   if(envoie){
     Overlay_modal.classList.toggle("active")
     Modal.classList.toggle("active")
+    inps.forEach(inp1 => inp1.disabled = true)
+    tarea.disabled = true
     }
   }

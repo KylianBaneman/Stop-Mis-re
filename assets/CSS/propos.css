@@ -256,6 +256,7 @@ header{
 .fond__texte p{
   font-size: 45px;
   font-weight: 600;
+  text-align: center;
 }
 .fond__texte__slogan p{
   font-weight: 500;

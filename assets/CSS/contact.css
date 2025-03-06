@@ -243,7 +243,7 @@ header{
   align-items: center;
   margin: 300px auto 0px auto;
   padding: 20px;
-  width: 55%;
+  width: max-content;
   border-radius: 18px;
   color: #fff;
 }
@@ -256,6 +256,7 @@ header{
 .fond__texte p{
   font-size: 45px;
   font-weight: 600;
+  text-align: center;
 }
 .fond__texte__slogan p{
   font-weight: 500;
@@ -460,6 +461,7 @@ footer{
 .overlay--modal{
   cursor: pointer;
   position: fixed;
+  z-index: 10;
   opacity: 0;
   visibility: hidden;
   width: 100vw;

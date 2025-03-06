@@ -71,7 +71,7 @@ html, body {
 .popLeftAnimationScroll{
   animation: popLeft ease-out;
   animation-timeline: view();
-  animation-range: entry 0% cover 50%;
+  animation-range: entry 0% cover 30%;
 }
 
 
@@ -258,6 +258,7 @@ header{
 .fond__texte p{
   font-size: 45px;
   font-weight: 600;
+  text-align: center;
 }
 .fond__texte__slogan p{
   font-weight: 500;
