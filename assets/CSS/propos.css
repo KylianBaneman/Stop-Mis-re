@@ -1,7 +1,7 @@
 /* ------------------------ Fond d'image ------------------------ */
 
 .fond{
-  background-image: url(/assets/Img/propos.png);
+  background-image: url(/assets/Img/propos.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
